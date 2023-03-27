@@ -1,49 +1,99 @@
-body{
-    font-family: 'Inter', sans-serif;
-    background-color: #006400;
-    font-weight: 400;
-    color: #fff;
+
+*{
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-.paginaPrincipal{
-margin-top: 100px;
-
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-justify-content: center;
-justify-items: center;
-align-items: center;
-border-radius: 22px;
-
-}
-.resultado{
-    background-color: #000;
-    width: 528px;
-    height: 120px;
-    
-    border-radius: 22px 22px 0px 0px;
+.fundo{
+    background-image: linear-gradient(45deg, rgb(0, 7, 2), rgb(2, 105, 28));
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-.telaDeButton{
-    padding: 10px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    display: flex;
-    width: 509px;
-    
-    /* border: solid #ff0000 1px; */
-    background-color: #303030;
-    border-radius: 0px 0px 22px 22px;
+.calculadora{
+    position: absolute;
+    background-color: #050505;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 25px;
+    padding: 15px;
 }
-.telaDeButton img {
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    width: 122px;
-    border: solid #000 3px;
-    border-radius: 22PX;
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+    border-radius: 50px;
+}
+.botaoCalcular{
+    font-size: 60px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    width: 107px;
+    margin-left: 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.botaoi{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-size: 35px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-left: -55px;
+    border-radius: 50px;
+}
+.botaoe{
+    cursor: pointer;
+    font-size: 35px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin-left: -55px;
+    border-radius: 50px;
+    /* border: solid #ff0000 2px; */
+}
+
+.botao:hover,
+.botaoi:hover,
+.botaoe:hover,
+.botaoCalcular:hover
+
+{
+    background-color: black;
+}
+
+.divResultado{
+    width: 265px;
+    background-color: #222121;
+    border-radius: 12px;
+    height: 100px;
+    margin: 5px;
+    font-size: 35px;
+    color: #fff;
+    text-align: right;
+    padding: 5px;
+    border: solid #979797 5px;
+   
+}
+div pre{
+    margin-top: 40px;
+    font-size: 50px;
+    /* max-width: 200px; */
+    /* border: solid #ff0000 5px; */
+} 
+p{
+    width: 300px;
 }
