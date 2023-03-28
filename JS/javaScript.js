@@ -3,33 +3,74 @@ function insert(num)
 {
     
     
-    var numero = document.getElementById('resultado').innerHTML;
+    var numero = document.getElementById('calculo').innerHTML;
     
     
-    document.getElementById('resultado').innerHTML = numero + num;
+    document.getElementById('calculo').innerHTML = numero + num;
 }
 
 
 function clean()
 {
-    document.getElementById('resultado').innerHTML = "";
+    document.getElementById('calculo').innerHTML = "";
 }
 function back()
 {
-    var resultado = document.getElementById('resultado').innerHTML;
-    document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1);
+    var calculo = document.getElementById('calculo').innerHTML;
+    document.getElementById('calculo').innerHTML = calculo.substring(0, calculo.length -1);
 }
 function calcular()
 {
-    var resultado = document.getElementById('resultado').innerHTML;
-    if(resultado)
+    var calculo = document.getElementById('calculo').innerHTML;
+    if(calculo)
     {
-        document.getElementById('resultado').innerHTML = eval(resultado);
+        document.getElementById('calculo').innerHTML = eval(calculo);
     }
     else
     {
-        document.getElementById('resultado').innerHTML = "Null..."
+        document.getElementById('calculo').innerHTML = "Null..."
     }
 }
 
 ﻿
+
+// teste de funtion 
+
+// function factorialize(num) {
+//     if (num < 0) 
+//           return -1;
+//     else if (num == 0) 
+//         return console.log(1);
+//     else {
+//         return (num * factorialize(num - 1));
+//     }
+//   }
+//   factorialize(10);
+//   console.log("full");
+//   console.log(factorialize);
+
+// function factorialize(num) {
+//     if (num === 0 || num === 1)
+//       return console.log(' return IF Testando aqui ' + 1);
+//     for (var i = num + 1; i >= 1; i++) {
+//     num *= i;
+//     console.log(' for Testando aqui ' + num)
+// }
+// return console.log(' return Testando aqui ' + num);
+
+// }
+//   factorialize(5);
+
+// function testefatorial() {
+    
+
+//     let somatorio = 1;
+    
+//     for (let i= 1; i <= 10; i++){
+//         somatorio *=i;
+//     } 
+    
+//     console.log(somatorio)
+// }
+
+// testefatorial();
