@@ -90,22 +90,19 @@
 }
 div pre{
     margin-top: 0px;
-    font-size: 40px;
     /* max-width: 200px; */
     /* border: solid #ff0000 5px; */
 } 
-div .resultado{
-    margin-top: 0px;
-    font-size: 40px;
-    /* max-width: 200px; */
-    /* border: solid #ff0000 5px; */
+div #resultado{
+    font-size: 30px;
+    color: #d6d6d6;  
+    /* border: solid #ffee30 5px;  */
 } 
 
 div #calculo{
-    margin-top: 0px;
-    font-size: 40px;
-    /* max-width: 200px; */
-     border: solid #ff0000 5px; 
+    margin-top: 15px;
+    font-size: 40px;  
+     /* border: solid #ff0000 5px;  */
 } 
 
 .divDesenvolvedor {

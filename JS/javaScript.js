@@ -4,8 +4,9 @@ function insert(num)
     
     
     var numero = document.getElementById('calculo').innerHTML;
+    var numeroResultado = document.getElementById('resultado').innerHTML;
     
-    
+    document.getElementById('resultado').innerHTML = numeroResultado + num;
     document.getElementById('calculo').innerHTML = numero + num;
 }
 
