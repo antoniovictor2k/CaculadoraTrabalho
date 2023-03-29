@@ -1,4 +1,5 @@
 
+
 function insert(num)
 {
     
@@ -8,8 +9,37 @@ function insert(num)
     
     document.getElementById('resultado').innerHTML = numeroResultado + num;
     document.getElementById('calculo').innerHTML = numero + num;
+
+// function testeal() {
+//     alert('ola')
+// }
+
+
+
 }
 
+// testeal()
+
+// funcionando
+
+function raiz() {
+    var calculo = document.getElementById('calculo').innerHTML;
+    document.getElementById('calculo').innerHTML = eval(Math.sqrt(calculo));
+    
+    
+    //  var numeroRaiz = document.getElementById('calculo').innerHTML;
+    // document.getElementById('calculo').innerHTML = Math.sqrt(numeroRaiz);
+    
+    // var calculo = document.getElementById('calculo').innerHTML;
+    // if(calculo)
+    // {
+    //     document.getElementById('calculo').innerHTML = eval(calculo);
+    // }
+    // else
+    // {
+    //     document.getElementById('calculo').innerHTML = "Null..."
+    // }
+}
 
 function clean()
 {
