@@ -24,12 +24,53 @@ function insert(num)
 function numeroPar() {
     var calculo = document.getElementById('calculo').innerHTML;
 
-    if (calculo % 2 == 0) {
-        
-    }
-    document.getElementById('calculo').innerHTML = eval(Math.sqrt(calculo));
+if(calculo % 2 == 0 && calculo !=0){
+    document.getElementById('calculo').innerHTML = calculo+ ' é par';
+    console.log(calculo+ ' é par')    
+}
+
+else{
+    document.getElementById('calculo').innerHTML = calculo+ ' não é par';
+console.log(calculo+ ' não é par')
+
+}
 }
 // fim teste par
+
+// numero impar
+function numeroImpar() {
+    var calculo = document.getElementById('calculo').innerHTML;
+    if(calculo % 2 == 1){
+        document.getElementById('calculo').innerHTML = calculo+ ' é Impar';
+        console.log(calculo+ ' é impar')
+        
+    }
+    else{
+        document.getElementById('calculo').innerHTML = calculo+ ' não é impar';
+        console.log(calculo+ ' não é impar')
+    
+}
+}
+// fim numero impar
+// numero primo
+
+function numeroPrimo() {
+    var calculo = document.getElementById('calculo').innerHTML;
+    
+    if(calculo % 2 == 1 && calculo !=1 || calculo == 2){
+        document.getElementById('calculo').innerHTML = calculo+ ' é primo';
+        // document.write('Primo')
+    }
+    else{
+        document.getElementById('calculo').innerHTML = calculo+ ' não é primo';
+        // document.write('Nenhum e nem outro')
+    }
+}    
+
+
+
+
+// fim numero primo
 // teste fatorial
 // funcionando
 // console.log('antes da função')
