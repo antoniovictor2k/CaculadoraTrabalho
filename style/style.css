@@ -98,7 +98,7 @@ div pre{
     /* border: solid #ff0000 5px; */
 } 
 div #resultado{
-    font-size: 30px;
+    font-size: 20px;
     color: #d6d6d6;  
     /* border: solid #ffee30 5px;  */
 } 
@@ -106,8 +106,8 @@ div #resultado{
 
 
 div #calculo{
-    margin-top: 15px;
-    font-size: 40px;  
+    margin-top: 22px;
+    font-size: 30px;  
      /* border: solid #ff0000 5px;  */
 } 
 
