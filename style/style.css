@@ -91,16 +91,35 @@
     padding: 5px;
     border: solid #979797 5px;
    
+
+    /* limitar o espaco para não passa dos 265pxx */
+    white-space: nowrap;  
+    overflow: hidden;
+    text-overflow: ellipsis; 
+
+
+
 }
 div pre{
     margin-top: 0px;
     /* max-width: 200px; */
     /* border: solid #ff0000 5px; */
 } 
-div #resultado{
-    font-size: 20px;
+
+.textoResultado{
+    font-size: 10px;
+    text-align: left;
     color: #d6d6d6;  
     /* border: solid #ffee30 5px;  */
+    
+}
+
+
+#resultado{
+    font-size: 20px;
+    /* margin-left: 60px; */
+    text-align: right;
+    /* border: solid #ffee30 1px;  */
 } 
 
 
