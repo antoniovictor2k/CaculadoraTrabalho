@@ -26,14 +26,15 @@
 .botao{
     width: 50px;
     height: 50px;
-    font-size: 35px;
+    font-size: 30px;
     cursor: pointer;
     margin: 3px;
     background-color: rgb(31, 31, 31);
     border: none;
     color: white;
-    border-radius: 50px;
+    border-radius: 12px;
 }
+
 .botaoCalcular{
     font-size: 60px;
     background-color: rgb(31, 31, 31);
@@ -41,28 +42,28 @@
     width: 107px;
     margin-left: 2px;
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 12px;
 }
 
 .botaoi{
     background-color: rgb(31, 31, 31);
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     height: 50px;
     width: 50px;
     cursor: pointer;
     margin-left: -55px;
-    border-radius: 50px;
+    border-radius: 12px;
 }
 .botaoe{
     cursor: pointer;
-    font-size: 35px;
+    font-size: 30px;
     background-color: rgb(31, 31, 31);
     color: white;
     height: 50px;
     width: 50px;
     margin-left: -55px;
-    border-radius: 50px;
+    border-radius: 12px;
     /* border: solid #ff0000 2px; */
 }
 
@@ -73,6 +74,9 @@
 
 {
     background-color: black;
+}
+.letra{
+    font-size: 16px;
 }
 
 .divResultado{

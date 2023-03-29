@@ -15,6 +15,11 @@ function clean()
 {
     document.getElementById('calculo').innerHTML = "";
 }
+function off()
+{
+    document.getElementById('calculo').innerHTML = "";
+    document.getElementById('resultado').innerHTML = "";
+}
 function back()
 {
     var calculo = document.getElementById('calculo').innerHTML;
