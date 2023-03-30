@@ -9,7 +9,7 @@ body{
     border: 0;
 }
 
-.container{
+.container, h2{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -19,4 +19,28 @@ body{
     align-content: center;
 
 }
+.divImg{
 
+    text-align: right;
+}
+
+.divImg img{
+    width: 200px;
+}
+
+.divProfessor p{
+   margin-left: 20px;
+   margin-bottom: 100px;
+    /* border: solid #ff0000 1px; */
+    
+}
+
+.developer{
+    font-size: 30px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
