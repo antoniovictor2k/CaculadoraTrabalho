@@ -19,13 +19,27 @@ body{
     align-content: center;
 
 }
+.divReturn{
+    margin: 15px;
+}
+.divReturn a{
+    font-size: 70px;
+    color: #fff;
+    text-decoration: none;
+    
+}
 .divImg{
-
+    margin-top: -100px;
     text-align: right;
+    /* border:  solid #ff0000 1px; */
+    
 }
 
 .divImg img{
+    margin-right: 0px;
     width: 200px;
+    /* border:  solid #ff0000 1px; */
+    border-radius: 100px;
 }
 
 .divProfessor p{
