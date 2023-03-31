@@ -13,4 +13,4 @@ Equipe JEVA System - 2023
 
 site de referencia: https://programadoresdepre.com.br/como-criar-uma-calculadora-com-html-css-e-javascript/ 
 
-modificado por Antonio Victor e Jeallyson Ferreira.
+modificação feita por Antonio Victor e Jeallyson Ferreira.
